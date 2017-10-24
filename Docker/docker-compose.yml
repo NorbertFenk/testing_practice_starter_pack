@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+
+  tdd-docker:
+    build: .
+    image: tdd-docker
+    volumes:
+      - ../:/source
+    stdin_open: true
+    tty: true
+
