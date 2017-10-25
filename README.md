@@ -30,7 +30,7 @@ docker-compose exec tdd-docker bash
 After this command your terminal attached to your container. The working directory is set to **/source**. You can change it in the Dockerfile under the Docker folder.
 
 #### NOTE: If you want to exit from the session use the **exit** command.
-#### NOTE: If you finish your work with the conatiner you sould stop the compose session. **Ctrl + c** will stop the output of the console but the resources (e.g.: container(s), network, etc) still running at the background. 
+#### NOTE: If you finish your work with the container you sould stop the compose session. **Ctrl + c** will stop the output of the console but the resources (e.g.: container(s), network, etc) still running at the background. 
 You should always use
 ```
 docker-compose down
