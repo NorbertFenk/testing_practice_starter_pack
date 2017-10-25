@@ -55,6 +55,15 @@ cd ..
 make coverage
 ```
 Under **build/coverage** you will find index.html you can open it e.g. with a browser.
+If you want to reset the coverage stats. Use this command 
+```
+make zero_coverage
+```
+
+### Static analyzer
+```
+cppcheck --quiet --error-exitcode=1 .
+```
 
 # Resources 
 * https://crascit.com/2015/07/25/cmake-gtest/
