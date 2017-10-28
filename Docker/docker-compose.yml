@@ -1,10 +1,8 @@
 version: '3.3'
 
 services:
-
   tdd-docker:
-    build: .
-    image: tdd-docker
+    image: norbertfenk/testing-practice
     volumes:
       - ../:/source
     stdin_open: true
