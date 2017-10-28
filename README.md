@@ -74,4 +74,5 @@ cppcheck --quiet --error-exitcode=1 .
 * https://github.com/richelbilderbeek/travis_cpp_tutorial
 * https://github.com/bilke/cmake-modules/blob/master/CodeCoverage.cmake
 * https://codeflu.blog/2014/12/26/using-gcov-and-lcov-to-generate-beautiful-c-code-coverage-statistics/
+* http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
 
