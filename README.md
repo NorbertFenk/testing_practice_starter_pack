@@ -16,8 +16,8 @@ Use
 ```
 docker-compose up
 ```
-at the Docker folder of the project or use the command anywhere but specify the **docker-compose.yml** location with -f switch.
-This command will create a docker image from the docker file and start a container. You can check the **Dockerfile** (image descriptor) and the **docker-compose.yml** under the Docker folder. This step may take a while. (I will try to optimize this later)
+at the Docker folder of the project or use the command anywhere but specify the **docker-compose.yml** location with **-f** switch. If you use the **-d** switch you can reuse the terminal.
+This command will download a docker image from docker hub and start a container. You can check the **Dockerfile** (image descriptor) and the **docker-compose.yml** under the Docker folder. This step may take a while. (I will try to optimize this later)
 
 ## Build the project
 
