@@ -1,7 +1,7 @@
 version: '3.3'
 
 services:
-  tdd-docker:
+  testing-docker:
     image: norbertfenk/testing-practice
     volumes:
       - ../:/source
