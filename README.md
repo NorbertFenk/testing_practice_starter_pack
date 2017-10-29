@@ -1,4 +1,4 @@
-# tdd_practice_starter_pack
+# testing_practice_starter_pack
 This is a simple skeleton to try out TDD with C++, Qt, and GTest.
 
 
@@ -21,11 +21,11 @@ This command will download a docker image from docker hub and start a container.
 
 ## Build the project
 
-When you see message like this **Attaching to docker_tdd-docker_1** on the console output, you can use your running container to build your project.
+When you see message like this **Attaching to docker_testing-docker_1** on the console output, you can use your running container to build your project.
 
 This command will give you a tty session to your running container.
 ```
-docker-compose exec tdd-docker bash
+docker-compose exec testing-docker bash
 ```
 After this command your terminal attached to your container. The working directory is set to **/source**. You can change it in the Dockerfile under the Docker folder.
 
