@@ -14,5 +14,6 @@ add_subdirectory(test)
 
 if(UNIX)
     include(CodeCoverage)
+    include(ClangTools)
 endif()
- 
+
